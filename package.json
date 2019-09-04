@@ -4,7 +4,9 @@
   "description": "The implement of xargs",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "lint": "tslint -c tslint.json --fix 'src/**/*.ts'",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "build:tsc": "tsc"
   },
   "keywords": [
     "xargs",
@@ -16,6 +18,7 @@
     "typescript": "^3.6.2"
   },
   "devDependencies": {
+    "@types/mocha": "^5.2.7",
     "@types/node": "^10.11.4",
     "tslint": "^5.19.0"
   }

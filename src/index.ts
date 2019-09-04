@@ -10,4 +10,4 @@ async function main() {
 	await xargs.exec();
 }
 
-main(); 
+main();
