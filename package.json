@@ -1,0 +1,22 @@
+{
+  "name": "xargs",
+  "version": "1.0.0",
+  "description": "The implement of xargs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "xargs",
+    "node"
+  ],
+  "author": "woorui",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "tslint": "^5.19.0"
+  }
+}
