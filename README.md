@@ -5,7 +5,7 @@ The implement of xargs, written in nodejs
 
 input:
 ```bash
-echo aaa bbb ccc ddd eee | ts-node src/index.ts -p 2 -n 2 ech
+echo aaa bbb ccc ddd eee | ts-node src/index.ts -p 2 -n 2 echo
 ```
 
 output:
