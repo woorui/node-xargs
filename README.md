@@ -26,6 +26,5 @@ npm run test
 4~5h
 ```
 
-### Todo:
+#### I remove the process.argv parsing function
 
-The implement of '-P'
